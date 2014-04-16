@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        <link rel="stylesheet" href="david.css"/>
         <title>watchesapp/rollex</title>
     </head>
     <body>
@@ -10,20 +11,31 @@
 
         <!--Header-->
         <div data-role="header" data-position="fixed">
-            <h1>Rollex</h1>
+            <h1>Watches app</h1>
         </div>
         <!--Content-->
         <div data-role="content">
-        <div data-role="navbar"  data-iconpos="left" data-role="collapsible-set" data-theme="c" data-content-theme="d">
-        <ul>
+         <h1>Rollex</h1>
+
+        <div>
+        <ul data-role="listview" data-theme="c">
          <li><a href="#">Relojes</a></li>
-         <li><a href="#">Official website</a></li>
+         <li><a href="http://m.rolex.com/es">Official website</a></li>
          <li><a href="#">Localizacion</a></li>
         </ul>
        </div>
+        <a href="#popupPanel" data-rel="popup" data-transition="slide" data-position-to="window" data-role="button">Open panel</a>
+ 
+<div data-role="popup" id="popupPanel" data-corners="false" data-theme="none" data-shadow="false" data-tolerance="0,0">
+ 
+    <button data-theme="a" data-icon="back" data-mini="true">Back</button>
+    <button data-theme="a" data-icon="grid" data-mini="true">Menu</button>
+    <button data-theme="a" data-icon="search" data-mini="true">Search</button>
+ 
+</div>    
       </div>
         <!--Footer-->
-        <div id="page-location-footer" data-role="footer" data-position="fixed" data-id="oneFooter">
+        <div data-role="footer" data-position="fixed" data-id="oneFooter">
             <span class="footerText">Copyright @2014</span>
         </div>
        </div>
