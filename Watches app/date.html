@@ -3,7 +3,7 @@
 <html>
    <head>
     <meta charset="UTF-8" />
-        <title>datejust</title>
+        <title>date</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="david.css"/>
@@ -63,7 +63,7 @@
     </script>
 	<style>
 		/* Set the background image sources */
-        datejust { background-image: url(swypeoyster/imagenesoyster/datejust.jpg); }
+        #datejust { background-image: url(swypeoyster/imagenesoyster/datejust.jpg); }
 		#date { background-image: url(swypeoyster/imagenesoyster/date.jpg); }
 		#date2 { background-image: url(swypeoyster/imagenesoyster/date2.jpg); }
 		#cosmo { background-image: url(swypeoyster/imagenesoyster/cosmo.jpg); }
@@ -103,36 +103,33 @@
 	</style>
     </head>
     <body>
-         <!--Datejust-->
-       <div data-role="page" id="#datejust" class="demo-page" data-dom-cache="true" data-theme="a" data-next="date.html">
+       <!--Date-->
+       <div data-role="page" id="date" class="demo-page" data-dom-cache="true" data-theme="a" data-prev="datejust" data-next="date2">
 
-    <div data-role="header" data-position="fixed" data-fullscreen="true" data-id="hdr" data-tap-toggle="false">
-        <h1>Datejust</h1>
+	<div data-role="header" data-position="fixed" data-fullscreen="true" data-id="hdr" data-tap-toggle="false">
+		<h1>Day-date</h1>
         <a href="relojesroll.html" data-ajax="false" data-direction="reverse" data-icon="delete" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
     </div><!-- /header -->
-  
+	
 	<div data-role="content">
     
-		<div id="trivia-datejust" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="d">
+		<div id="trivia-date" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="d">
         	<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
-			<p>Although many legends exist about the origin of New York City's nickname, the Big Apple, most historians agree that it can be traced back to a writer who covered horse racing in the 1920s. In The Morning Telegraph, he wrote that stable hands often referred to New York as the Big Apple, meaning that any thoroughbred that raced in New York had reached the pinnacle of racing. <small>source:&nbsp;nylady.hubpages.com</small></p>
+			<p>At 140 meters (16 lanes), Avenida 9 de Julio in Buenos Aires is the world’s widest avenue. Its name honors Argentina’s birthdate. (July 9, 1816). The avenue runs roughly one kilometer to the west of the Río de la Plata waterfront, from the Retiro district in the north to Constitución station in the south. <small>source:&nbsp;inautonews.com</small></p>
         </div>
 
 	</div><!-- /content -->
-
+    
     <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="ftr" data-tap-toggle="false">
-        
 		<div data-role="controlgroup" class="control ui-btn-left" data-type="horizontal" data-mini="true">
         	<a href="#" class="prev" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="d">Previous</a>
         	<a href="#" class="next" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="d">Next</a>
         </div>
-        <h1>prueba</h1>
-       
         
-		<a href="#trivia-datejust" data-rel="popup" class="trivia-btn ui-btn-right" data-role="button" data-icon="info" data-iconpos="left" data-theme="d" data-mini="true">Trivia</a>
+		<a href="#trivia-date" data-rel="popup" class="trivia-btn ui-btn-right" data-role="button" data-icon="info" data-iconpos="left" data-theme="d" data-mini="true">Trivia</a>
     </div><!-- /footer -->
 
 </div><!-- /page -->
-
+ 
     </body>
 </html>
