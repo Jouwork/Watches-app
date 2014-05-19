@@ -28,7 +28,8 @@ text-align:centre;
 }
 
 /* Set the background image sources */
-        #datejust { background-image: url(swipeoyster/imagenesoyster/datejust.jpg); }
+        #datejust { background-image: url(swipeoyster/imagenesoyster/datejust.jpg); 
+                   width: 100%; height: 100%;}
 		#date { background-image: url(swipeoyster/imagenesoyster/date.jpg); }
 		#date2 { background-image: url(swipeoyster/imagenesoyster/date2.jpg); }
 		#cosmo { background-image: url(swipeoyster/imagenesoyster/cosmo.jpg); }
