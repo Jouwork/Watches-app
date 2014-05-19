@@ -1,9 +1,4 @@
 
-		// Bind to "mobileinit" before you load jquery.mobile.js
-		// Set the default transition to slide
-		$(document).on( "mobileinit", function() {
-			$.mobile.defaultPageTransition = "slide";
-		});	
 	
 		$( document ).on( "pageinit", "[data-role='page'].demo-page", function() {
 			var page = "#" + $( this ).attr( "id" ),
