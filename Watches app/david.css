@@ -57,3 +57,11 @@ text-align:centre;
     display: none;
   }
 }
+
+#images {
+height: yourheightinpx;
+}
+#images img {
+max-width: 100%;
+width: auto\9;
+}
