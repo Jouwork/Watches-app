@@ -6,15 +6,15 @@
 		 "correct":3},
 		{"question":"Cual es el actual director del benlliure 2013/14?", 
 		 "answers":["Angel Haba","Enric Mut","Josep Cuenca","Lluis Benso"],
-		 "correct":3}
+		 "correct":3},
         {"question":"Cuanta ram tienen los ordenadores de la clase de informatica 3 2013/14?", 
 		 "answers":["1mb","1kb","2mb","2gb"],
-		 "correct":3}
+		 "correct":3},
         {"question":"Cuantos Miñanas Llibrer hay en el benlliure 13/14?", 
 		 "answers":["4","1","2","3"],
-		 "correct":1}
+		 "correct":1},
         {"question":"Rubene esto es de broma?", 
 		 "answers":["Si","No","Quizas","Una provocacion"],
-		 "correct":4}
+		 "correct":4},
 	]
 }
